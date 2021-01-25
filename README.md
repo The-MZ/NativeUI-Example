@@ -40,3 +40,5 @@ To-do:
   They aren't correct because I just cut some code of the Atomic SP Beta menu and put it in the example.
   They look like this: "1/5". You can't miss them, they are next to the name of the feature and will appear
   at the bottom of the menu when a feature is selected!
+  
+You are free to modify and change this example to whatever you like!

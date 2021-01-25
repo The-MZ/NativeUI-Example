@@ -4,6 +4,12 @@ It's a small part of code from my own mod menu (Atomic SP Beta).
 
 It has some basic features built in to show you how to add them.
 
+
+
+
+
+
+
 Requirements:
 
 - Basic knowledge of C#
@@ -15,8 +21,6 @@ Requirements:
 - NativeUI
 
 - ScriptHookVDotNet 3 (Version 3.1.0 is recommended)
-
-
 
 To-do:
 

@@ -23,6 +23,12 @@ To-do:
 - Add NativeUI.dll & ScriptHookVDotNet 3.dll to the references!!! Else the menu wan't be able to compile!
   If you don't know how to do this than you are at the wrong place. It's the simpliest step of all!
   Search for it on the internet if you don't know how to do this!
+  
+- Go into "Properties" --> "Application" and change "Assembly name" & "Default namespace" to whatever your
+  mod menu name is!
+  
+- Go into "Properties" --> "Application" --> "Assembly Information..." and change Title, Company, Product,
+  Assembly version and File version to whatever you want. You can also change the other stuff if you want.
 
 - Change the menu name to whatever you like and don't forget to change the dev name!
 

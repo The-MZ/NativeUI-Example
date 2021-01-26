@@ -33,6 +33,11 @@ To-do:
   
 - Go into "Properties" --> "Application" --> "Assembly Information..." and change Title, Company, Product,
   Assembly version and File version to whatever you want. You can also change the other stuff if you want.
+  
+- On the top of your screen (in Visual Studio) you'll see something that says "Debug", change this to "Releas.
+  And also change the box right next to that one from "Any CPU" to "X64". This should fix some warnings.
+  If you don't have "X64" in that box than leave it as it is or create "X64" (leave it alone if you don't
+  know what I'm talking of).
 
 - Change the menu name to whatever you like and don't forget to change the dev name!
 

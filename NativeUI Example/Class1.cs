@@ -29,6 +29,7 @@ namespace NativeUI_Example
         UIMenu MoveMentMenu;
         UIMenu VehicleSpawnerMenu;
         UIMenu GiveWeaponsMenu;
+        UIMenu WeaponSelectorMenu;
 
         UIMenuItem resetWantedLevel;
         UIMenuItem PlayerHealth;
@@ -55,9 +56,9 @@ namespace NativeUI_Example
         void Setup()
         {
             modMenuPool = new MenuPool();
-            mainMenu = new UIMenu("~r~Example", "~r~V. 1.0                  Made by: The_MZ"); /*You NEED to adjust the blank spaces to fit with your name!!!
-                                                                                               * If it's 2 characters longer than remove 2 blank spaces!!!
-                                                                                               * Else it wan't work!*/
+            mainMenu = new UIMenu("~r~Example", "~r~V. 1.0                              Made by: The_MZ"); /*You NEED to adjust the blank spaces to fit with your name!!!
+                                                                                                            * If it's 2 characters longer than remove 2 blank spaces!!!
+                                                                                                            * Else it wan't work!*/
             modMenuPool.Add(mainMenu);
 
             playerMenu = modMenuPool.AddSubMenu(mainMenu, "Self Menu ~r~>", "                             ~r~1/3");
@@ -1437,14 +1438,6 @@ namespace NativeUI_Example
                 Game.Player.Character.Weapons.Current.InfiniteAmmoClip = false;
                 Game.Player.Character.Weapons.Current.InfiniteAmmo = false;
             }
-            if (InvisibleOn)
-            {
-                Game.Player.Character.IsVisible = false;
-            }
-            else
-            {
-                Game.Player.Character.IsVisible = true;
-            }
             if (FastRunOn)
             {
                 if (Game.Player.Character.IsSprinting && Game.Player.Character.IsRagdoll == false && Game.Player.Character.IsAiming == false && Game.Player.Character.IsRunning == false && Game.Player.Character.IsSwimming == false && Game.Player.Character.IsSwimmingUnderWater == false && Game.Player.Character.IsAimingFromCover == false && Game.Player.Character.IsInAir == false && Game.Player.Character.IsInCombat == false && Game.Player.Character.IsInCoverFacingLeft == false && Game.Player.Character.IsInStealthMode == false && Game.Player.Character.IsInWater == false && Game.Player.Character.IsJacking == false && Game.Player.Character.IsJumpingOutOfVehicle == false && Game.Player.Character.IsClimbing == false && Game.Player.Character.IsFalling == false && Game.Player.Character.IsGettingUp == false && Game.Player.Character.IsGoingIntoCover == false && Game.Player.Character.IsGettingIntoVehicle == false)
@@ -1460,7 +1453,7 @@ namespace NativeUI_Example
 
         void OnKeyDown(object sender, KeyEventArgs e) //This will open the menu if a certain key is pressed.
         {
-            if (e.KeyCode == Keys.F5 /*This is key used for opening the menu, you can change it by any key you want.*/ && !modMenuPool.IsAnyMenuOpen())
+            if (e.KeyCode == Keys.F6 /*This is key used for opening the menu, you can change it by any key you want.*/ && !modMenuPool.IsAnyMenuOpen())
             {
                 mainMenu.Visible = !mainMenu.Visible; //If you don't know what this does than leave it alone!!! But it's obvious what it does...
             }

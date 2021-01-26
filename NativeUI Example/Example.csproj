@@ -59,6 +59,12 @@
     <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NativeUI">
+      <HintPath>D:\Modding ALL\Atomic SP Stuff\NativeUI\NativeUI.dll</HintPath>
+    </Reference>
+    <Reference Include="ScriptHookVDotNet3">
+      <HintPath>D:\Modding ALL\Atomic SP Stuff\ScriptHookVDotNet\ScriptHookVDotNet3.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />

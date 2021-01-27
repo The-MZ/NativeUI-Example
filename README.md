@@ -1,5 +1,5 @@
 # NativeUI-Example
-This is an example code for a NativeUI mod menu for GTA5. You can use this to create your own menu.
+This is an example code for a NativeUI mod menu for GTA5. You can use this as a base to create your own menu.
 It's a small part of code from my own mod menu (Atomic SP Beta).
 
 It has some basic features built in to show you how to add them.
